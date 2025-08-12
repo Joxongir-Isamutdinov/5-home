@@ -11,6 +11,7 @@
     width: 1440px;
     background-color: #F3D7B7;
     margin: 0 auto;
+    height: 720px;
     
 }
 .container{
@@ -39,66 +40,6 @@
 .headera{
     color: #333333;
 }
-.main{
-    margin-top: 130px;
-    display: flex;
-    justify-content: space-between;
-}
-.mainleft{
-    margin-left: 50px;
-}
-.mainleft h2{
-    width: 447px;
-    height: 150px;
-    font-style: Bold;
-    font-size: 64px;
-    line-height: 100%;
-    letter-spacing: 0px;
-    font-weight: 700;
-}
-.mainleft p{
-    width: 464px;
-    height: 72px;
-    font-style: Regular;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0px;
-    font-weight: 400;
-    margin-top: 47px;
-    margin-bottom: 47px;
-}
-.btn{
-    height: 51;
-    width: 193;
-    border-radius: 100px;
-    padding-top: 16px;
-    padding-right: 24px;
-    padding-bottom: 16px;
-    padding-left: 24px;
-    gap: 10px;
-    background-color: #0A775F;
-    border: none;
-    color: white;
-    font-style: Medium;
-    font-size: 16px;
-    line-height: 100%;
-    letter-spacing: 1px;
-    text-align: center;
-    font-variant: small-caps;
-    font-weight: 500;
-}
-.btn:hover{
-    background-color: white;
-    color: #0A775F;
-    border: 1px solid #0A775F;
-    transition: all 1s ease;
-    transition: 1s ease;
-}
-.collection{
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-}
 .header-content_img{
     position: relative;
 }
@@ -110,12 +51,15 @@
     animation-name: krugAnim;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    margin-top: 135px;
 
 }
 .kvadrat{
     position: relative;
     left: 50px;
     top: 70px;
+    margin-right: 54px;
+    margin-top: 135px;
 }
 @keyframes krugAnim{
     0%{
@@ -125,48 +69,100 @@
         transform: rotate(360deg);
     }
 }
-.card{
+.main{
     display: flex;
-    gap: 250px;
-    margin: 0 auto;
-    justify-content: center;
+    justify-content: space-between;
 }
-.cardt{
-    margin-top: 120px;
+.mainleft{
+    margin-top: 135px;
 }
-.cardt h3{
-    font-weight: 500;
-    font-style: Medium;
+.mainleft h2{
+    width: 264px;
+    height: 77px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin-bottom: 74px;
+}
+.mainleft p{
+    width: 372px;
+    height: 85px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+.center{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1445px;
+    height: 740px;
+}
+.center_text h3{
+    width: px;
+    height: 56px;
+    font-weight: 700;
+    font-style: Bold;
     font-size: 48px;
     letter-spacing: 0px;
     font-variant: small-caps;
     line-height: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 64px;
+    text-transform: uppercase;
 }
-.cardt p{
-    font-weight: 400;
+.center_text p{
+    width: 646px;
+    height: 207px;
     font-style: Regular;
-    font-size: 22px;
-    line-height: 34px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
     letter-spacing: 0px;
-    width: 454px;
+    color: #333333;
 }
-.hmain{
-    margin: 0 auto;
+.main2{
+    width: 1440px;
+    height: 510px;
+    background-color: #C99B67;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_t{
+    margin-left: 50px;
+}
+.main_t h3{
+    text-transform: uppercase;
+    width: 397px;
+    height: 118px;
     font-weight: 700;
     font-style: Bold;
     font-size: 50px;
-    line-height: 100%;
     letter-spacing: 0px;
-    text-align: center;
     font-variant: small-caps;
-    margin-bottom: 42px;
-    margin-top: 108px;
+    line-height: 100%;
+    color: #FFFFFF;
 }
-.imgr{
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
+.main_t p{
+    width: 639px;
+    height: 150px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    margin-left: 9px;
+    margin-top: 28px;
+}
+.main_i{
+    margin-right: 56px;
+    margin-bottom: 280px;
 }
 .footer{
     width: 1440px;
